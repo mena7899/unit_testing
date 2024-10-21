@@ -6,7 +6,7 @@ package com.mycompany.testing_project;
 
 /**
  *
- * @author First
+ * @author Mena
  */
 public class SimpleCalculator {
     public int add (int num1,int num2){    
