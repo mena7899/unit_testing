@@ -17,7 +17,7 @@ import static org.junit.Assert.*;
  * @author Mena
  */
 public class SimpleCalculatorTest {
-    
+    public SimpleCalculator instance = new SimpleCalculator();
     public SimpleCalculatorTest() {
     }
     
@@ -45,7 +45,7 @@ public class SimpleCalculatorTest {
         System.out.println("add");
         int num1 = 1;
         int num2 = 2;
-        SimpleCalculator instance = new SimpleCalculator();
+        //SimpleCalculator instance = new SimpleCalculator();
         int expResult = 3;
         int result = instance.add(num1, num2);
         assertEquals(expResult, result);
@@ -62,7 +62,7 @@ public class SimpleCalculatorTest {
         System.out.println("substract");
         int num1 = 5;
         int num2 = 1;
-        SimpleCalculator instance = new SimpleCalculator();
+        //SimpleCalculator instance = new SimpleCalculator();
         int expResult = 4;
         int result = instance.subtract(num1, num2);
         assertEquals(expResult, result);
@@ -79,7 +79,7 @@ public class SimpleCalculatorTest {
         System.out.println("multiply");
         int num1 = 7;
         int num2 = 6;
-        SimpleCalculator instance = new SimpleCalculator();
+        //SimpleCalculator instance = new SimpleCalculator();
         int expResult = 42;
         int result = instance.multiply(num1, num2);
         assertEquals(expResult, result);
@@ -96,7 +96,7 @@ public class SimpleCalculatorTest {
         System.out.println("divide");
         int num1 = 8;
         int num2 = 2;
-        SimpleCalculator instance = new SimpleCalculator();
+        //SimpleCalculator instance = new SimpleCalculator();
         int expResult = 4;
         int result = instance.divide(num1, num2);
         assertEquals(expResult, result);
